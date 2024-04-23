@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #231e51;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  color: #231e51;
+  font-weight: bold;
+}
+
+#login {
+  border-radius: 15px;
+  background-color: #231e51;
+  color: aliceblue;
+}

@@ -1,0 +1,30 @@
+.table-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.table {
+  width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #231e51;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 505px) {
+  .email-column {
+    display: none;
+  }
+}

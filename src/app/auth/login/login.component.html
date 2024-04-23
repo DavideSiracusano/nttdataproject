@@ -1,0 +1,25 @@
+<form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+  <div class="container">
+    <div class="header">
+      <h1>Welcome to the Urban City Life Project</h1>
+      <a href="https://gorest.co.in/consumer/login" target="_blank"
+        >To get your access token you must first authenticate on the GoRest
+        platform</a
+      >
+    </div>
+
+    <h2>Login</h2>
+
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        formControlName="token"
+        placeholder="Enter your token"
+        aria-label="Enter your token"
+      />
+    </mat-form-field>
+
+    <button id="login" mat-raised-button type="submit">login</button>
+  </div>
+</form>

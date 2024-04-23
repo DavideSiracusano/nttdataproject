@@ -1,0 +1,50 @@
+<form [formGroup]="subscribeForm" (ngSubmit)="onSubmit()">
+  <div class="container">
+    <div class="header">
+      <h1>Welcome to the Urban City Life Project</h1>
+      <a href="https://gorest.co.in/consumer/login" target="_blank"
+        >To get your access token you must first authenticate on the GoRest
+        platform</a
+      >
+    </div>
+
+    <h2>Register</h2>
+
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        formControlName="name"
+        placeholder="Enter your name"
+        aria-label="Enter your name"
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        type="email"
+        formControlName="email"
+        placeholder="Enter your email"
+        aria-label="Enter your email"
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Select your gender</mat-label>
+      <mat-select formControlName="gender" aria-label="Select your gender">
+        <mat-option value="Male">Male</mat-option>
+        <mat-option value="Female">Female</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        formControlName="token"
+        placeholder="Enter your token"
+        aria-label="Enter your token"
+      />
+    </mat-form-field>
+
+    <button id="submit" mat-raised-button type="submit">submit</button>
+  </div>
+</form>
