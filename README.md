@@ -16,19 +16,8 @@ Furthermore, upon logging in, it will redirect to the user list where you can cl
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Link firebase: 
+https://nttdataprojectmain.web.app/home
 
 
 
